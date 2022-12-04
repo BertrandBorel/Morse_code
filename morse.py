@@ -32,13 +32,15 @@ sortie = ""
 for x in test_2 :
     sortie = sortie + x + " "
 
-print(sortie)
+# print(sortie)
+
+
 
 mn = ""
 
 for x in sortie :
     if x == " ":
-        pass
+        mn = mn + " "
     else :
         valeur = code_morse[x]
         # lol = sortie.replace(x, valeur)
@@ -47,14 +49,20 @@ for x in sortie :
 print(mn)
 
 
+liste = [x for x in mn]
+print("liste : ", liste)
 
+mot = ""
 
+for x in liste :
+    # if x != " ":
+    mot = mot + x 
 
-
+print(mot)
 
 # # traduire l'inverse
-# #avec test_2
-# for x in test_2 :
+#avec test_2
+# for x in mn :
 #     # cle = .keys()[code_morse.values().index(x)] 
 #     # print(cle)
 #     # print(list(code_morse.keys())[list(code_morse.values()).index(x)])
