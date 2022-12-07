@@ -4,7 +4,7 @@
                - translate a sentence into Morse code
                - translate Morse code into a sentence
 
-## Algorithm
+## Algorithm :
 
 ### 1 : translate a sentence into Morse code :
         - capitalize text
