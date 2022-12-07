@@ -16,8 +16,8 @@
         
 ### 2 : translate Morse code into a sentence :
         - replace double spaces (word separation) by a special character (here : "|")
-        - separate each world (with `.split()` in a list )
+        - separate each world (with .split() in a list )
         - Morse code translation with a for loop :
             - for each element (x) :  - if x is the special character, replace by a space 
                                       - else : check in the dictonary and add the result
-        - text formatting (with `.capitalize()` ) and return the result
+        - text formatting (with .capitalize() ) and return the result
