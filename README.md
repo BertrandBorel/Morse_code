@@ -21,3 +21,8 @@
             - for each element (x) :  - if x is the special character, replace by a space 
                                       - else : check in the dictonary and add the result
         - text formatting (with .capitalize() ) and return the result
+
+
+---
+
+Création d'une interface grpahique (en cours)
