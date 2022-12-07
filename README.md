@@ -25,4 +25,4 @@
 
 ---
 
-Création d'une interface grpahique (en cours)
+## Creation of a graphical interface (in progress) with Tkinter
