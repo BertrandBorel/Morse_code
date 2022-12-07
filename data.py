@@ -54,20 +54,20 @@ def morse_to_text(input):
     input = input.split()
     
     # morse code translation
-    resultat = ""
+    result = ""
     for x in input :
             if x == "|":
                 # add a space
-                resultat = resultat + " "
+                result = result + " "
             else :
                 # add the key of the dictionary 
                 key = list(morse_code.keys())[list(morse_code.values()).index(x)]
-                resultat = resultat + key
+                result = result + key
     
     # text formatting
-    resultat = resultat.capitalize()
+    result = result.capitalize()
     
-    return resultat
+    return result
 
 
 
