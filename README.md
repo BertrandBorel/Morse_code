@@ -25,7 +25,7 @@
 
 ---
 
-## Creation of a graphical interface (with Tkinter)
+## Creation of a graphical interface (with Tkinter)  ==> In progress
 
 
 <img width="500" alt="Capture" src="https://user-images.githubusercontent.com/95342688/206486649-8d6325fb-a413-4c54-85e5-9facc7b63e0f.PNG">
